@@ -1,0 +1,82 @@
+body{
+    background-image: linear-gradient(to bottom right,rgb(6, 6, 215),rgb(110, 6, 109),red,yellow);
+    background-repeat: no-repeat;
+     box-sizing: border-box; 
+    height: 100vh;
+    
+}
+
+div{
+    height:100%;
+    width:100%;
+    /* border: 1px solid; */
+    position: relative;
+    /* border: 1px solid; */
+}
+
+#first{
+    box-sizing: border-box;
+    height: 80%;
+    padding-top: 10%;
+    /* margin-top: 5%; */
+}
+#second{
+    height: 20%;
+}
+
+#QR{
+    position: absolute;
+    float: left;
+    height: 100%;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    
+    
+    
+    
+}
+
+#instruc{
+    display: flex;
+    flex-direction: column;
+    align-items:left;
+    text-align:left;
+    /* border: 3px solid; */
+    float: right;
+    height: 100%;
+    width: 60%;
+}
+
+#instruc p{
+    
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    font-size: medium;
+}
+
+img{
+    height: 200px;
+    width: 200px;
+    border: 5px solid black;
+    border-radius: 25px;
+    
+}
+footer {
+    height: 100%;
+    width: 100%;
+    display:flex;
+    justify-content:center;
+    text-align:center;
+    align-items: center;
+
+    
+    
+}
+footer a{
+    color:black;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    
+}
+
