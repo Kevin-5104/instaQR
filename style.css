@@ -1,5 +1,5 @@
 body{
-    background-image: linear-gradient(to bottom right,rgb(6, 6, 215),rgb(110, 6, 109),red,yellow);
+    background-image: linear-gradient(to bottom right,rgb(82, 16, 188),rgb(110, 6, 109),red,yellow);
     background-repeat: no-repeat;
      box-sizing: border-box; 
     height: 100vh;
@@ -78,5 +78,11 @@ footer a{
     text-decoration: none;
     display: flex;
     
+}
+
+a:hover{
+    color:rgb(61, 4, 4);
+    text-decoration: underline;
+    text-shadow: 34px;
 }
 
